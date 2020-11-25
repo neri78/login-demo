@@ -7,7 +7,7 @@ const LocalStrategy = require('passport-local').Strategy;
 //デモのためのTestユーザー
 const TestUser = {
   username: 'test',
-  password: '20201017'
+  password: 'verify'
 }
 
 passport.use(new LocalStrategy(
